@@ -36,6 +36,7 @@ class World {
 	onRemoveComplete = () => {}
 
   constructor(container, options = {}){
+		console.log("2309420348903248902384902");
 		// extend defaults with options
 		this.config = {...defaultOptions, ...options}
 		// if a canvas selector is provided then that will be used for the dicebox, otherwise a canvas will be created using the config.id
