@@ -18,7 +18,7 @@ module.exports = defineConfig({
 				main: path.resolve(__dirname, 'src/index.js')
 			},
 			output: [{
-				format: "es",
+				format: "cjs",
 				manualChunks: {
 					// babylon: ['@babylonjs/core','@babylonjs/loaders','@babylonjs/materials']
 				},
